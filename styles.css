@@ -4,20 +4,23 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f8f9fa;
+    background-color: #000000; /* Fondo negro */
     margin: 0;
 }
 
 .container {
     text-align: center;
+    color: #D4AF37; /* Dorado más opaco */
 }
 
 h1 {
-    color: #343a40;
+    color: #D4AF37; /* Título en dorado más opaco */
+    margin: 0 0 20px 0; /* Espacio inferior para separar del QR */
 }
 
 #qr-code {
     margin: 20px auto;
-    width: 256px;
-    height: 256px;
+    width: 256px; /* Ancho del QR */
+    height: 256px; /* Altura del QR */
+    border: 2px solid black; /* Borde dorado más opaco opcional alrededor del QR */
 }

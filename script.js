@@ -9,13 +9,17 @@ const qrCode = new QRCodeStyling({
     data: menuPDFUrl,
     image: '', // Puedes agregar una imagen de logo si deseas
     dotsOptions: {
-        color: '#000000',
+        color: '#D4AF37',
         type: 'rounded'
     },
     backgroundOptions: {
-        color: '#ffffff',
+        color: 'black',
     }
 });
 
 // Renderizar el código QR en el div con id 'qr-code'
 qrCode.append(document.getElementById('qr-code'));
+
+
+
+
